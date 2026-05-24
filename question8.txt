@@ -1,0 +1,59 @@
+1. ls Command
+
+Command:
+ls
+
+Output:
+devops-linux-assignment  documents  downloads  file1.txt
+
+Explanation:
+- devops-linux-assignment → Directory/folder name
+- documents → Directory/folder name
+- downloads → Directory/folder name
+- file1.txt → Text file
+
+The ls command displays the list of files and directories present in the current working directory.
+
+
+2. ls -al Command
+
+Command:
+ls -al
+
+Sample Output:
+drwxr-xr-x 2 khushboo khushboo 4096 May 23 18:13 devops-linux-assignment
+
+Explanation of each field:
+- d → Indicates a directory
+- rwxr-xr-x → File permissions
+- 2 → Number of links
+- khushboo → Owner name
+- khushboo → Group name
+- 4096 → File/directory size in bytes
+- May 23 18:13 → Last modified date and time
+- devops-linux-assignment → Directory name
+
+
+3. ls -hl Command
+
+Command:
+ls -hl
+
+Sample Output:
+drwxr-xr-x 2 khushboo khushboo 4.0K May 23 18:38 downloads
+
+Explanation:
+- drwxr-xr-x → File permissions
+- 2 → Number of links
+- khushboo → Owner name
+- khushboo → Group name
+- 4.0K → Human-readable file size
+- May 23 18:38 → Last modified date and time
+- downloads → Directory name
+
+
+Difference Between Commands
+
+- ls → Displays files and directories
+- ls -al → Displays detailed list including hidden files
+- ls -hl → Displays detailed list with human-readable file sizes

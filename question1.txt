@@ -1,0 +1,8 @@
+# Create User
+sudo adduser devopsuser
+
+# Give Sudo Access
+sudo usermod -aG sudo devopsuser
+
+# Verify
+groups devopsuser

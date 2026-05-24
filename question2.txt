@@ -1,0 +1,10 @@
+# Create Directory
+sudo mkdir /home/devopsuser/project
+
+# Create 3 Files
+touch /home/devopsuser/project/file1.txt
+touch /home/devopsuser/project/file2.txt
+touch /home/devopsuser/project/file3.txt
+
+# Verify Files
+ls -l /home/devopsuser/project

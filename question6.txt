@@ -1,0 +1,19 @@
+Difference between cp, mv and rm commands
+
+1. cp command
+cp command is used to copy files and directories from one location to another.
+
+Example:
+cp file1.txt backup.txt
+
+2. mv command
+mv command is used to move or rename files and directories.
+
+Example:
+mv file1.txt newfile.txt
+
+3. rm command
+rm command is used to remove/delete files and directories.
+
+Example:
+rm file1.txt

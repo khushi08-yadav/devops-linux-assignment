@@ -1,0 +1,19 @@
+Find Your System IP Address
+
+To find the IP address in Linux, use the following command:
+
+ip a
+
+Difference between Public IP and Private IP
+
+1. Public IP Address
+A public IP address is used on the internet and is assigned by the Internet Service Provider (ISP). It can be accessed globally.
+
+Example:
+103.21.244.1
+
+2. Private IP Address
+A private IP address is used inside a local network and cannot be accessed directly from the internet.
+
+Example:
+192.168.1.1

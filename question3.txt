@@ -1,0 +1,32 @@
+# Question 3
+
+Linux file permissions define who can:
+- Read
+- Write
+- Execute
+
+There are 3 types of users:
+- Owner
+- Group
+- Others
+
+Permission values:
+Read = 4
+Write = 2
+Execute = 1
+
+## Change Permission to 755
+
+chmod 755 /home/devopsuser/project/file1.txt
+
+## Verify Permission
+
+ls -l /home/devopsuser/project/file1.txt
+
+## Meaning of 755
+
+755 = rwxr-xr-x
+
+Owner = Read, Write, Execute
+Group = Read, Execute
+Others = Read, Execute

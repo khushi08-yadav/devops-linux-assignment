@@ -1,0 +1,12 @@
+# Check Disk Usage
+df -h
+
+# Check Memory Usage
+free -h
+
+# Check Current Running Processes
+ps -ef
+
+OR
+
+top
